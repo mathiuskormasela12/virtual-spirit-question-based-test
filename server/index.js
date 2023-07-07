@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.write(JSON.stringify({
       status: 200,
-      message: 'Success',
+      message: 'Success get users',
       data: users
     }));
     res.end()
